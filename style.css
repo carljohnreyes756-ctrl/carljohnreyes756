@@ -17,7 +17,7 @@ body {
     overflow: hidden;
 }
 
-/* Background Blobs */
+
 .bg-blobs .blob {
     position: absolute; border-radius: 50%; filter: blur(80px); z-index: -1;
 }
@@ -43,7 +43,6 @@ body {
 h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
 .subtitle { color: #636e72; font-size: 0.9rem; margin-bottom: 2rem; }
 
-/* Level Buttons */
 .level-buttons { display: flex; flex-direction: column; gap: 12px; }
 .btn-level {
     padding: 18px; border: none; border-radius: 15px;
@@ -56,7 +55,7 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
 .btn-level:hover { transform: translateY(-3px); background: var(--primary); color: white; box-shadow: 0 8px 20px rgba(108, 92, 231, 0.3);
  }
 
-/* Game Elements */
+
 .game-header { display: flex; justify-content: space-around; margin-bottom: 1.5rem;
  }
 .stat-box { display: flex; flex-direction: column;
@@ -73,14 +72,13 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
     perspective: 1000px;
 }
 
-/* Grid Layouts */
+
 .grid-easy { grid-template-columns: repeat(3, 1fr);
  }
 .grid-medium { grid-template-columns: repeat(4, 1fr);
  }
 .grid-hard { grid-template-columns: repeat(4, 1fr); }
 
-/* Card Styling */
 .card { aspect-ratio: 1/1; position: relative; cursor: pointer; transform-style: preserve-3d; transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
 .card.flipped { transform: rotateY(180deg); }
 .card-front, .card-back {
@@ -97,40 +95,40 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
 .primary-btn { background: var(--primary); color: white; }
 .secondary-btn { background: rgba(0,0,0,0.05); color: #636e72; margin-top: 10px; }
 
-/* Modal */
+
 .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.4); backdrop-filter: blur(5px); display: flex; justify-content: center; align-items: center; z-index: 10; }
 
-/* Quit Game Button - Aesthetic Version */
+
 .secondary-btn {
     margin-top: 20px;
     padding: 12px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Glass border */
+    border: 1px solid rgba(255, 255, 255, 0.3); 
     border-radius: 12px;
-    background: rgba(255, 107, 107, 0.2); /* Soft red glass tint */
-    color: #d63031; /* Text color matching the tint */
+    background: rgba(255, 107, 107, 0.2); 
+    color: #d63031; 
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    width: 100%; /* Para kasing-lapad ng board sa mobile */
+    width: 100%; 
 }
 
-/* Hover effect para sa Quit button */
+
 .secondary-btn:hover {
     background: rgba(255, 107, 107, 0.4);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(214, 48, 49, 0.2);
-    color: #ffffff; /* Magiging puti ang text pag na-hover */
+    color: #ffffff; 
 }
 
-/* Para naman sa Play Again button sa Modal, siguraduhin nating ganito rin */
+
 .primary-btn {
     margin-top: 20px;
     padding: 12px 30px;
     border: none;
     border-radius: 12px;
-    background: var(--primary); /* Yung purple na ginamit natin */
+    background: var(--primary); 
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -142,4 +140,5 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
     filter: brightness(1.1);
+
 }
