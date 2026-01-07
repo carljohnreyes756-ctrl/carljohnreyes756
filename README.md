@@ -1,29 +1,35 @@
-# ✨ Mind Match: Memory Game
+Mind Match
 
-Isang modernong browser-based memory match game na binuo gamit ang **HTML5, CSS3, at Vanilla JavaScript**. Tampok ang **Glassmorphism design**, smooth animations, at adjustable difficulty levels.
+**Mind Match** is a responsive and aesthetic memory card game designed to test your focus and cognitive speed. Race against the clock to match all pairs before time runs out!
 
-## 🎮 Features
+ Features
 
-- **Aesthetic UI**: Modernong "Glassmorphism" design na may soft pastel colors at background blur effects.
-- **Difficulty Levels**:
-  - **Easy**: 12 cards | 45 seconds limit.
-  - **Medium**: 16 cards | 60 seconds limit.
-  - **Hard**: 24 cards | 90 seconds limit.
-- **Dynamic Scoring**: Sinusubaybayan ang bilang ng moves at natitirang oras.
-- **Responsive Design**: Swak ang laro sa desktop, tablet, at mobile devices.
-- **Interactive Modals**: May pop-up notification kapag nanalo o naubusan ng oras.
+ Aesthetic UI:** Features a dreamy animated gradient background with a modern Glassmorphism effect.
+3 Difficulty Levels:
+  - Easy: 12 Cards • 45s
+  - Medium: 16 Cards • 60s
+  - Hard: 24 Cards • 90s
+-  Core Mechanics: Includes a real-time countdown timer and move counter.
+-  Fully Responsive: Optimized for both desktop and mobile devices.
 
-## 🛠️ Technologies Used
+ Technologies Used
 
-- **HTML5**: Para sa semantic structure ng game.
-- **CSS3**: Para sa Glassmorphism effects, Flexbox/Grid layouts, at Keyframe animations.
-- **JavaScript (ES6+)**: Para sa game logic, shuffle algorithms, at timers.
-- **Google Fonts**: Gamit ang 'Poppins' font para sa malinis na typography.
+- HTML - Structure and layout
+- CSS - Styling, Grid layout, Keyframe animations, and Glassmorphism
+- JavaScript  - Game logic, DOM manipulation, and state management
 
-## 🚀 Paano Laruin
+ How to Play
 
-1. Piliin ang nais na antas (Easy, Medium, o Hard).
-2. I-click ang card para makita ang icon nito.
-3. Maghanap ng kaparehong icon sa ibang card bago maubos ang oras.
-4. Kapag nag-match, mananatiling nakabukas ang mga card. Kapag hindi, kusa itong mag-f-flip pabalik.
-5. Mananalo ka kapag nahanap mo lahat ng pares sa loob ng itinakdang oras!
+1. Select a Level: Choose between Easy, Medium, or Hard.
+2. Find Pairs: Click on cards to flip them and find matching emojis.
+3. Beat the Clock: Match all pairs before the timer hits zero!
+4. Track Moves: Try to win with the fewest moves possible.
+
+ How to Run
+
+1. Clone the repository or download the ZIP file.
+2. Open the folder and locate `index.html`.
+3. Double-click `index.html` to open the game in your web browser.
+
+*Created by **Carl John Reyes** | Aspiring Web Developer*
+
