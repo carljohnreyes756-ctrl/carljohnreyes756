@@ -6,7 +6,7 @@ let timerInterval;
 let matchedPairs = 0;
 let isLocked = false;
 
-// Levels Configuration
+
 const levels = {
     easy: { pairs: 6, time: 45, gridClass: 'grid-easy' },
     medium: { pairs: 8, time: 60, gridClass: 'grid-medium' },
@@ -30,7 +30,7 @@ function setupBoard(config) {
     board.className = `game-board ${config.gridClass}`;
     board.innerHTML = '';
     
-    // Select and shuffle emojis
+
     let selectedEmojis = emojiPool.slice(0, config.pairs);
     let gameSet = [...selectedEmojis, ...selectedEmojis].sort(() => Math.random() - 0.5);
     
@@ -104,5 +104,6 @@ function endGame(isWin) {
     }
 }
 
-// Quit Game Button
+ Quit Game Button
+
 document.getElementById('quit-btn').onclick = () => location.reload();
