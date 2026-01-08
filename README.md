@@ -40,7 +40,7 @@ This project was built using pure front-end technologies:
 
 Option 1: Play Online (GitHub Pages)
 You can play the game instantly through this link:  
-🔗 [https://carljohnreyes756-ctrl.github.io/DC101_Game_Reyes_Carl_John/]
+🔗 [ https://carljohnreyes756-ctrl.github.io/DC101_Game_Reyes_Carl_John/]
 *(Note: Please allow a few seconds for the site to load.)*
 
 Option 2: Run Locally
@@ -74,6 +74,7 @@ The modal that appears when the player successfully matches all cards.
 *   **Fonts:** [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
 *   **Icons:** Native System Emojis
 *   **CSS Techniques:** Glassmorphism and CSS Animation concepts applied from various web design resources.
+
 
 
 
