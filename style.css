@@ -43,6 +43,7 @@ body {
 h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
 .subtitle { color: #636e72; font-size: 0.9rem; margin-bottom: 2rem; }
 
+
 .level-buttons { display: flex; flex-direction: column; gap: 12px; }
 .btn-level {
     padding: 18px; border: none; border-radius: 15px;
@@ -78,6 +79,7 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
 .grid-medium { grid-template-columns: repeat(4, 1fr);
  }
 .grid-hard { grid-template-columns: repeat(4, 1fr); }
+
 
 .card { aspect-ratio: 1/1; position: relative; cursor: pointer; transform-style: preserve-3d; transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
 .card.flipped { transform: rotateY(180deg); }
@@ -140,5 +142,4 @@ h1 { color: #2d3436; font-size: 2.5rem; letter-spacing: -1px; }
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
     filter: brightness(1.1);
-
 }
