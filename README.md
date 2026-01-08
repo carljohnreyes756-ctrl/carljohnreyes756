@@ -33,20 +33,20 @@ This project was built using pure front-end technologies:
 3.  Find Pairs: Click a second card to find its match.
        Match:Cards stay flipped.
       Mismatch: Cards flip back after a short delay.
-5.  Beat the Timer: Match all pairs before the "Time Left" reaches zero.
-6.  Victory: A modal will appear showing your total moves and remaining time.
+4.  Beat the Timer: Match all pairs before the "Time Left" reaches zero.
+5.  Victory: A modal will appear showing your total moves and remaining time.
 
 🚀 How to Run the Game
 
 Option 1: Play Online (GitHub Pages)
 You can play the game instantly through this link:  
-🔗 **[INSERT YOUR GITHUB PAGES LINK HERE]**  
+🔗 [https://github.com/carljohnreyes756-ctrl/DC101_Game_Reyes_Carl_John]
 *(Note: Please allow a few seconds for the site to load.)*
 
 Option 2: Run Locally
 1.  Download or clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/DC101_Game_Reyes_Carl_John.git
+    git clone https://github.com/carljohnreyes756/DC101_Game_Reyes_Carl_John.git
     ```
 2.  Open the project folder.
 3.  Double-click `index.html` to open it in your web browser.
@@ -55,11 +55,13 @@ Option 2: Run Locally
 
 Main Menu
 Displays the aesthetic glass card interface and difficulty selection.  
-![Main Menu](screenshots/menu.png)
+<img width="543" height="356" alt="image" src="https://github.com/user-attachments/assets/61d2cd6a-7665-4498-8a91-dd99929f8294" />
+
 
 Gameplay Board
 The grid of cards with the timer and move counter running.  
-![Gameplay](screenshots/gameplay.png)
+<img width="363" height="430" alt="image" src="https://github.com/user-attachments/assets/c09ab7ca-fd6a-4f16-8eea-0198d7ee291c" />
+
 
  Victory Screen
 The modal that appears when the player successfully matches all cards.  
@@ -69,4 +71,5 @@ The modal that appears when the player successfully matches all cards.
 *   **Fonts:** [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
 *   **Icons:** Native System Emojis
 *   **CSS Techniques:** Glassmorphism and CSS Animation concepts applied from various web design resources.
+
 
