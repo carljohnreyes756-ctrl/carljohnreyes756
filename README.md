@@ -55,12 +55,14 @@ Option 2: Run Locally
 
 Main Menu
 Displays the aesthetic glass card interface and difficulty selection.  
-<img width="543" height="356" alt="image" src="https://github.com/user-attachments/assets/61d2cd6a-7665-4498-8a91-dd99929f8294" />
+<img width="247" height="244" alt="image" src="https://github.com/user-attachments/assets/6406d99d-875f-414f-a6a2-cfeaf2590442" />
+
 
 
 Gameplay Board
 The grid of cards with the timer and move counter running.  
-<img width="363" height="430" alt="image" src="https://github.com/user-attachments/assets/c09ab7ca-fd6a-4f16-8eea-0198d7ee291c" />
+<img width="239" height="417" alt="image" src="https://github.com/user-attachments/assets/91b195c3-77cb-45e5-9b31-e8de16750792" />
+
 
 
  Victory Screen
@@ -72,6 +74,7 @@ The modal that appears when the player successfully matches all cards.
 *   **Fonts:** [Google Fonts - Poppins](https://fonts.google.com/specimen/Poppins)
 *   **Icons:** Native System Emojis
 *   **CSS Techniques:** Glassmorphism and CSS Animation concepts applied from various web design resources.
+
 
 
 
